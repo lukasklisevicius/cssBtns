@@ -13,12 +13,12 @@ body, main, .btn-box {
     justify-content: center;
     align-items: center;
 }
+
+
 body, main {flex-wrap: wrap;}
+a {text-decoration: none;color: black;}
+body {padding:5% 10%;flex-direction: column;}
 
-
-body {padding:5% 10%;}
-
-button {padding: 5%;}
 
 .btn-box {
     width: 150px;
