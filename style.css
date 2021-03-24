@@ -8,13 +8,21 @@ h1 {
     margin-bottom: 5%;
 }
 
-body {
-    padding:5% 10%;
+body, main, .btn-box {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
 }
+body, main {flex-wrap: wrap;}
 
-button {
-    margin: 5%;
+
+body {padding:5% 10%;}
+
+button {padding: 5%;}
+
+.btn-box {
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid grey;
 }
